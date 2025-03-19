@@ -45,9 +45,14 @@ npx tsc --init
 }
 ```
 
-### Create A src folder
+### Create a src folder
 ```shell
 mkdir src
+```
+
+### Create a typescript file in src directory
+```shell
+touch src/main.ts
 ```
 
 ### Compile with watch
