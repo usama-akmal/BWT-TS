@@ -2,7 +2,12 @@
 
 ## Basic Commands
 
-### Setup new project
+### Setup Node project
+```shell
+npm init
+```
+
+### Install Typescript
 ```shell
 npm install typescript --save-dev
 ```
@@ -29,7 +34,7 @@ npx tsc --init
     "esModuleInterop": true,   
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "include": [
     "src/**/*.ts"
@@ -53,4 +58,10 @@ npx tsc --watch
 ### Run using node
 ```shell
 node dist/<file-name>.js
+```
+
+### Run using html
+```html
+<!-- Inject the generated javascript to html page -->
+<script src="dist/<file-name>.js"></script>
 ```
