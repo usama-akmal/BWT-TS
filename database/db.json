@@ -1,0 +1,19 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "name": "Usama",
+            "major": "masters in computer science"
+        },
+        {
+            "id": "2",
+            "name": "Bilal",
+            "major": "bachelors in computer science"
+        },
+        {
+            "id": "3",
+            "name": "Zain",
+            "major": "masters in applied physics"
+        }
+    ]
+}
