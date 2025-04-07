@@ -30,3 +30,4 @@ const renderTable = async () => {
 }
 
 renderTable();
+
